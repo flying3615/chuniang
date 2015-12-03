@@ -1,0 +1,18 @@
+[2015-12-03 14:55:35] /shop/index.php?act=seller_login&op=login ( act=seller_login&op=login ) 
+ERR: Db Error: Table 'chuniang.chuniang_seller' doesn't exist
+SELECT * FROM `chuniang_seller` WHERE ( seller_name = 'cn' ) LIMIT 1  
+[2015-12-03 14:55:46] /shop/ ( act=index&op=index ) 
+ERR: Db Error: Table 'chuniang.chuniang_groupbuy' doesn't exist
+SELECT * FROM `chuniang_groupbuy` WHERE ( state = '20' ) AND ( start_time < '1449125745' ) AND ( end_time > '1449125745' ) ORDER BY recommended desc LIMIT 4  
+[2015-12-03 14:55:46] /shop/ ( act=index&op=index ) 
+ERR: Db Error: Table 'chuniang.chuniang_link' doesn't exist
+SELECT * FROM `chuniang_link` as `link`   order by link_id
+[2015-12-03 14:55:46] /shop/ ( act=index&op=index ) 
+ERR: Db Error: Table 'chuniang.chuniang_p_xianshi_goods' doesn't exist
+SELECT * FROM `chuniang_p_xianshi_goods` WHERE ( state = '1' ) AND ( start_time < '1449125745' ) AND ( end_time > '1449125745' ) ORDER BY xianshi_recommend desc LIMIT 4  
+[2015-12-03 14:55:46] /shop/ ( act=index&op=index ) 
+ERR: Db Error: Table 'chuniang.chuniang_web' doesn't exist
+SELECT * FROM `chuniang_web` WHERE ( web_show = '1' ) AND ( web_page LIKE 'index%' ) ORDER BY web_sort LIMIT 1000  
+[2015-12-03 15:25:01] /shop/index.php?act=seller_login&op=login ( act=seller_login&op=login ) 
+ERR: Db Error: Table 'chuniang.chuniang_seller' doesn't exist
+SELECT * FROM `chuniang_seller` WHERE ( seller_name = 'cn' ) LIMIT 1  
